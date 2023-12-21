@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+      body{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBzLbT_iFWhhd4VeYBvp3YFQFT1kI0EFheMw&usqp=CAU);
+    }
+</style>
+<body>
+    <script>
+         
+        let a =+prompt("введдіть сторону a","");
+    let b =+prompt("введдіть сторону b","");
+    let c=+prompt("введдіть сторону c","");
+    let D=(b*b)-(4*(a*c))
+   if (D<0){
+     document.write("<p>"+ "У рівяння"+ a +"х<sup>"+"2"+"</sup>+"+" +"+b+"x +" +c+"нема коренів"+"</p>")
+   } else if (D==0){
+    document.write ("<p>"+ "У рівяння"+ a +"x<sup>"+"2"+"</sup>"+" +"+b+"x +" +c+"=0 ОДИН корінь"+"</p>")
+   }
+   else if (D>0){
+    document.write("<p>"+  "У рівяння"+ a +"x<sup>"+"2"+"</sup>+"+" +"+b+"x +" +c+"два кореня"+"</p>")
+   }
+    </script>
+</body>
+</html>
